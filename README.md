@@ -2,7 +2,7 @@
 图片无限轮播器; Picture carousel device;
 
 ##一个图片视图循环利用的轮播器
-  这个轮播器使用三个UIimageView，只要你设置好图片名数组，内部会实现轮播效果
+  这个轮播器使用三个UIimageView，只要你设置好图片名数组，内部会实现轮播效果，也有拖拽滑动的功能
   
 ## 使用步骤
   1. 导入PictureCarouselDevice文件夹到项目中
