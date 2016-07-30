@@ -38,6 +38,11 @@
 /** 判断已经设置好内部scrollView */
 @property (nonatomic, assign, getter=isBeginSetupView) BOOL beginSetupView;
 
+/**
+ *  当前显示的图片索引
+ */
+@property (nonatomic, assign) NSUInteger currentImageIndex;
+
 @end
 
 @implementation JDRunLoopPhotoView

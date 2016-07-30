@@ -12,19 +12,14 @@ typedef void(^touchUpBlock)(NSInteger tapImageIndex);
 
 @interface JDRunLoopPhotoView : UIView
 /**
- *  轮播的图片数组
+ *  轮播的图片名数组
  */
 @property (strong, nonatomic) NSArray *photos;
 
 /**
- *  轮播的间隔时间
+ *  轮播的间隔时间，默认时间是1秒
  */
 @property (nonatomic, assign) NSTimeInterval durationTime;
-
-/**
- *  当前显示的图片索引
- */
-@property (nonatomic, assign) NSUInteger currentImageIndex;
 
 /**
  *  分页控件的展示点圈颜色
